@@ -1,0 +1,55 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "devcamp-2687351",
+    "dateExported": "2023-10-26T16:43:53.657Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e87b4cca-e576-4e21-8f48-7b9956c218d5",
+            "name": "bootcamps",
+            "containerId": "",
+            "created": "2023-10-26T15:33:26.520Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "add2f1e6-a543-4043-89b3-a8f6c3d44b80",
+            "colId": "3910da5f-b7d1-4475-af8c-46dc13b9504c",
+            "containerId": "e87b4cca-e576-4e21-8f48-7b9956c218d5",
+            "name": "traer todos los bootcamps",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/bootcamps",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-26T15:33:51.343Z",
+            "modified": "2023-10-26T15:36:39.041Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "44bb0020-cc5e-425b-97cc-5985cce33564",
+            "colId": "3910da5f-b7d1-4475-af8c-46dc13b9504c",
+            "containerId": "e87b4cca-e576-4e21-8f48-7b9956c218d5",
+            "name": "crear bootcamp",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/bootcamps",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-26T16:30:02.544Z",
+            "modified": "2023-10-26T16:43:35.549Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Javascript Bootcamp\",\n  \"phone\":123456789,\n  \"address\":\"SENA calle 52\",\n  \"topics\":[ \"Frontend/UX\" ,\n  \"Backend\" \n  ],\n  \"createdAt\": \"2023-10-26\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
